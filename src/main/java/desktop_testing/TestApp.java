@@ -24,8 +24,7 @@ public class TestApp {
         driver.findElement(By.className("ToolbarWindow32")).findElement(By.name("Save")).click();
         System.out.println(output);
 
-
-
+        
         //Calculator
        /* driver.findElement(By.name("One")).click();
 
@@ -37,7 +36,6 @@ public class TestApp {
         driver.findElement(By.name("Equals")).click();
         String output = driver.findElement(By.id("1968")).getAttribute("Name");
         System.out.println(output); */
-
 
     }
 }
